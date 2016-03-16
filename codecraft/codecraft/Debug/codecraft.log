@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/3/16 23:47:27。
+     1>项目“C:\Users\aeo\Documents\Visual Studio 2013\Projects\codecraft\codecraft\codecraft.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\aeo\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\lib" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\dijkstra.cpp" "..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\future_net.cpp" "..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\io.cpp" "..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\route.cpp"
+         route.cpp
+     1>c:\users\aeo\desktop\huawei code craft 2016\sdk-gcc\future_net\lib\lib_record.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         io.cpp
+     1>c:\users\aeo\desktop\huawei code craft 2016\sdk-gcc\future_net\io.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\aeo\desktop\huawei code craft 2016\sdk-gcc\future_net\io.cpp(47): warning C4244: “初始化”: 从“time_t”转换到“unsigned long”，可能丢失数据
+     1>c:\users\aeo\desktop\huawei code craft 2016\sdk-gcc\future_net\io.cpp(49): warning C4244: “初始化”: 从“time_t”转换到“unsigned long”，可能丢失数据
+     1>c:\users\aeo\desktop\huawei code craft 2016\sdk-gcc\future_net\io.cpp(51): warning C4244: “=”: 从“time_t”转换到“unsigned long”，可能丢失数据
+         future_net.cpp
+     1>c:\users\aeo\desktop\huawei code craft 2016\sdk-gcc\future_net\lib\lib_io.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\aeo\desktop\huawei code craft 2016\sdk-gcc\future_net\lib\lib_time.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         dijkstra.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\aeo\Documents\Visual Studio 2013\Projects\codecraft\Debug\codecraft.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\aeo\Documents\Visual Studio 2013\Projects\codecraft\Debug\codecraft.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\aeo\Documents\Visual Studio 2013\Projects\codecraft\Debug\codecraft.lib" /MACHINE:X86 Debug\dijkstra.obj
+         Debug\future_net.obj
+         Debug\io.obj
+         Debug\route.obj
+         codecraft.vcxproj -> C:\Users\aeo\Documents\Visual Studio 2013\Projects\codecraft\Debug\codecraft.exe
+     1>已完成生成项目“C:\Users\aeo\Documents\Visual Studio 2013\Projects\codecraft\codecraft\codecraft.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.09
