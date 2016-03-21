@@ -15,33 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\future_net.cpp">
+    <ClCompile Include="..\future_net\dijkstra.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\io.cpp">
+    <ClCompile Include="..\future_net\future_net.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\route.cpp">
+    <ClCompile Include="..\future_net\io.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\dijkstra.cpp">
+    <ClCompile Include="..\future_net\route.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\route.h">
+    <ClInclude Include="..\future_net\route.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\lib\lib_io.h">
+    <ClInclude Include="..\future_net\lib\lib_io.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\lib\lib_record.h">
+    <ClInclude Include="..\future_net\lib\lib_record.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\lib\lib_time.h">
+    <ClInclude Include="..\future_net\lib\lib_time.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\lib\unistd.h">
+    <ClInclude Include="..\future_net\lib\unistd.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
