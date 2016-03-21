@@ -14,7 +14,6 @@
     <ProjectGuid>{39B82283-D0D5-4C56-98D3-8B1737941A03}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>codecraft</RootNamespace>
-    <ProjectName>codecraft</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -54,7 +53,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\aeo\Documents\Visual Studio 2013\Projects\codecraft\future_net\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aeo\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -80,17 +79,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\future_net\dijkstra.cpp" />
-    <ClCompile Include="..\future_net\future_net.cpp" />
-    <ClCompile Include="..\future_net\io.cpp" />
-    <ClCompile Include="..\future_net\route.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\dijkstra.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\future_net.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\io.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\route.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\future_net\lib\lib_io.h" />
-    <ClInclude Include="..\future_net\lib\lib_record.h" />
-    <ClInclude Include="..\future_net\lib\lib_time.h" />
-    <ClInclude Include="..\future_net\lib\unistd.h" />
-    <ClInclude Include="..\future_net\route.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\lib\lib_io.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\lib\lib_record.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\lib\lib_time.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\lib\unistd.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\HUAWEI Code Craft 2016\SDK-gcc\future_net\route.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
