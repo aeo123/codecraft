@@ -174,7 +174,7 @@ struct cmpKeyvalue {
 };
 		
 int DG_EN(int ds, int dt, RESULTPATH & resultPath){
-#define MC  (2E4)
+#define MC  (1E4)
 
 	priority_queue<RESULTPATH, vector<RESULTPATH >, cmpKeyvalue >que;//优先队列 小根堆，key越小越优
 	vector<RESULTPATH > allFindPath;			//所有找到的路径
